@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fdf5f6;
+    color: #333;
+}
+.contenedor-principal {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 0 0 20px rgba(0,0,0,0.05);
+}
+
+header {
+    background-color: #d1c4e9;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+nav a {
+    color: #4a148c;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.foto-principal {
+    height: 350px;
+    background-color: #f48fb1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.seccion-video {
+    display: flex;
+    padding: 60px 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.caja-grande-video {
+    width: 550px;
+    height: 320px;
+    background-color: #ce93d8;
+    border-radius: 15px;
+    flex-shrink: 0;
+}
+
+.texto-video h2 {
+    font-size: 32px;
+    color: #4a148c;
+}
+
+.boton-morado {
+    background-color: #ab47bc;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.titulo-seccion {
+    background-color: #ba68c8;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+.seccion-tarjetas {
+    background-color: #f3e5f5;
+    padding: 60px 20px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.tarjeta-item {
+    background-color: white;
+    width: 280px;
+    padding: 25px;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.foto-tarjeta {
+    height: 140px;
+    background-color: #f8bbd0;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.zona-formulario {
+    display: flex;
+    justify-content: center;
+    padding: 80px 20px;
+    background-color: #f3e5f5;
+}
+
+form {
+    background-color: white;
+    padding: 40px;
+    border-radius: 15px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input, select, textarea {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #d1c4e9;
+    padding: 20px;
+    text-align: center;
+    color: #4a148c;
+}
